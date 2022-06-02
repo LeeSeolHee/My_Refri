@@ -19,20 +19,20 @@
         tools:layout_editor_absoluteY="121dp" />
 
     <EditText
-        android:id="@+id/login_email"
+        android:id="@+id/edt_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:ems="10"
         android:hint="아이디"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/login_password"
+        app:layout_constraintBottom_toTopOf="@+id/edt_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/txtid"
+        android:id="@+id/txt_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="아이디 찾기"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:text="로그인"
         app:layout_constraintBaseline_toBaselineOf="@+id/join_button"
-        app:layout_constraintStart_toStartOf="@+id/login_password" />
+        app:layout_constraintStart_toStartOf="@+id/edt_password" />
 
     <Button
         android:id="@+id/join_button"
@@ -57,10 +57,10 @@
         android:layout_marginBottom="256dp"
         android:text="가입"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/login_password" />
+        app:layout_constraintEnd_toEndOf="@+id/edt_password" />
 
     <TextView
-        android:id="@+id/txtpw"
+        android:id="@+id/txt_pw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="비밀번호 찾기"
@@ -84,7 +84,7 @@
         tools:layout_editor_absoluteY="511dp" />
 
     <EditText
-        android:id="@+id/login_password"
+        android:id="@+id/edt_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
@@ -92,6 +92,6 @@
         android:hint="비밀번호"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/login_button"
-        app:layout_constraintStart_toStartOf="@+id/login_email" />
+        app:layout_constraintStart_toStartOf="@+id/edt_email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
